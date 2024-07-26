@@ -6,6 +6,27 @@ Author URI: https://www.templateonweb.com/
 Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
 */
 
+#navbar_sticky {
+    background-image: url(../img/TNT\ profile.png);
+    /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#ssticky {
+    background-image: url(../img/TNT\ \ why\ we\ are\ difference.png);
+    /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+        /* Makes the div span the full width of its parent */
+    height: 600px;
+        /* Set the height of the div; adjust as needed */
+}
+
 /*********************about****************/
 .center_about {
 background-image: url(../img/pexels-kamo11235-667838.jpg);
@@ -135,5 +156,50 @@ min-height:470px;
  }
  }
 
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    #ssticky {
+        height: 500px;
+        /* Adjust height for medium screens */
+        width: calc(100% - 30px);
+        /* Adjust width for medium screens */
+        margin: 0 15px;
+        /* Adjust margin for medium screens */
+    }
+}
+
+@media (max-width: 992px) {
+    #ssticky {
+        height: 400px;
+        /* Adjust height for smaller screens */
+        width: calc(100% - 20px);
+        /* Adjust width for smaller screens */
+        margin: 0 10px;
+        /* Adjust margin for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    #ssticky {
+        height: 300px;
+        /* Adjust height for mobile screens */
+        width: calc(100% - 15px);
+        /* Adjust width for mobile screens */
+        margin: 0 5px;
+        /* Adjust margin for mobile screens */
+    }
+}
+
+@media (max-width: 576px) {
+    #ssticky {
+        height: 200px;
+        /* Adjust height for very small screens */
+        width: 100%;
+        /* Full width for very small screens */
+        margin: 0;
+        /* Remove margin for very small screens */
+    }
+}
 
 

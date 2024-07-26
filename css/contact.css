@@ -6,6 +6,13 @@ Author URI: https://www.templateonweb.com/
 Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
 */
 
+#navbar_sticky {
+    background-image: url(../img/TNT\ profile.png);
+    /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 /*********************contact****************/
 .center_cont{
 background-image: url(../img/pexels-kamo11235-667838.jpg);

@@ -6,6 +6,13 @@ Author URI: https://www.templateonweb.com/
 Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
 */
 
+#navbar_sticky {
+    background-image: url(../img/TNT\ profile.png);
+    /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 /*********************about****************/
 .center_proj {
 background-image: url(../img/pexels-kamo11235-667838.jpg);
@@ -21,6 +28,94 @@ background-position: center;
  }
 .proj_dt3o .proj_h2i2{
 padding-top:20%;
+ }
+
+
+ .proj_ho .proj_h2i img {
+     width: 100%;
+     height: auto;
+ }
+
+ .pages ul {
+     list-style: none;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+ }
+
+ .pages ul li {
+     margin: 0 5px;
+ }
+
+ .pages ul li a {
+     text-decoration: none;
+     color: #000;
+ }
+
+ .pages ul li a.act {
+     font-weight: bold;
+     color: #007bff;
+ }
+
+ .pages ul li a.arrow {
+     font-size: 20px;
+ }
+
+ .page {
+     display: none;
+     /* Hide all pages initially */
+ }
+
+ .page.active {
+     display: flex;
+     /* Show only the active page */
+ }
+
+ /* Responsive adjustments */
+ @media (max-width: 768px) {
+     .pages ul li a {
+         font-size: 14px;
+     }
+ }
+
+ .proj_ho .proj_h2i {
+     margin-bottom: 20px;
+     /* Adjust the bottom margin as needed */
+ }
+
+ .proj_ho .proj_h2i img {
+     margin-bottom: 15px;
+     /* Adjust the bottom margin of the image as needed */
+ }
+
+
+
+  .proj_ho .proj_h2ii {
+      margin-bottom: 20px;
+      /* Adjust the bottom margin as needed */
+  }
+
+  .proj_ho .proj_h2ii img {
+      margin-bottom: 15px;
+      /* Adjust the bottom margin of the image as needed */
+  }
+
+ .proj_ho .proj_h2i img {
+     width: 100%;
+     /* Make sure images are responsive and fit within their containers */
+     height: 300px;
+     /* Set a fixed height for all images */
+     object-fit: cover;
+     /* Ensures images cover the container without distortion */
+ }
+
+ .proj_ho .proj_h2ii img {
+     width: 100%;
+     /* Make sure images are responsive and fit within their containers */
+     height: 500px;
+     /* Set a fixed height for all images */
+     object-fit: cover;
+     /* Ensures images cover the container without distortion */
  }
 
 /*********************about_end****************/
